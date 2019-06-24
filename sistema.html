@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<head>
+<meta charset="utf-8"/>
+<title>Sistema de Marketing Multinivel - Teste Gratis Online | Backoffice</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+
+ <script>
+         charts= [["2019-06-19",0],["2019-06-20",0],["2019-06-21",0],["2019-06-22",0],["2019-06-23",0],["2019-06-24",0]];
+    </script>
+
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="http://teste.monteseummn.com/assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/admin/pages/css/profile.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN PAGE STYLES -->
+<link href="http://teste.monteseummn.com/assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE STYLES -->
+<!-- BEGIN THEME STYLES -->
+<!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
+<link href="http://teste.monteseummn.com/assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link href="http://teste.monteseummn.com/assets/admin/layout/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="http://teste.monteseummn.com/assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<!-- END THEME STYLES -->
+
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/bootstrap-select/bootstrap-select.min.css"/>
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/jquery-multi-select/css/multi-select.css"/>
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/select2/select2.css"/>
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css"/>
+<link rel="stylesheet" type="text/css" href="http://teste.monteseummn.com/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
+
+<link href="http://teste.monteseummn.com/assets/admin/layout/css/sweetalert.css" rel="stylesheet" type="text/css"/>
+
+<link rel="shortcut icon" href="http://teste.monteseummn.com/uploads/favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-fixed-mobile" and "page-footer-fixed-mobile" class to body element to force fixed header or footer in mobile devices -->
+<!-- DOC: Apply "page-sidebar-closed" class to the body and "page-sidebar-menu-closed" class to the sidebar menu element to hide the sidebar by default -->
+<!-- DOC: Apply "page-sidebar-hide" class to the body to make the sidebar completely hidden on toggle -->
+<!-- DOC: Apply "page-sidebar-closed-hide-logo" class to the body element to make the logo hidden on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-hide" class to body element to completely hide the sidebar on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-fixed" class to have fixed sidebar -->
+<!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
+<!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
+<!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
+<body class="page-header-fixed page-container-bg-solid page-sidebar-closed-hide-logo page-header-fixed-mobile page-footer-fixed1">
+
+<!-- BEGIN HEADER -->
+<aside>
+        <div class="row head">
+            <div class="voltar" onclick="$('aside').hide()"><i class="fa     fa-angle-left"></i> Fechar</div>
+            <h1>MONTE SEU MM</h1>
+            <div class="h_nav_head">
+                <div class="col-md-6 saldo">
+                    <div class="title_head">SALDO DISPONÍVEL</div>
+                    <div class="value_head">R$ 0,00<i class=""></i></div>
+                    <img class="fundo_m_header" src="http://teste.monteseummn.com/assets/global/img/carteira.png" alt="">
+                </div>
+                <div class="col-md-6 pontos">
+
+                    <div class="title_head">PONTOS DISPONÍVEIS</div>
+                    <div class="value_head">0</div>
+                    <img class="fundo_m_header" src="http://teste.monteseummn.com/assets/global/img/joinha.png" alt="">
+                </div>
+            </div>
+            <div class="botao">
+                <a class="novoB" href="http://teste.monteseummn.com/anuncio">
+                    <i class="ion-ios-plus-outline"></i>
+                    NOVO ANÚNCIO
+                </a>
+            </div>
+        </div>
+        <div class="row content">
+<ul class="page-sidebar-menu menu-personalizado menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                <p class="subtitle">
+                    MENU
+                </p>
+                <li class="start ">
+                    <a href="http://teste.monteseummn.com/conta">
+                    <span>
+                        <i class="icon-home"></i>
+                    </span>
+                    Backoffice
+                    </a>
+                </li>
+                <li>
+                    <a href="http://teste.monteseummn.com/indicados">
+                    <span>
+                        <i class="fa fa-user"></i>
+                    </span>
+                    Meus indicados
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://teste.monteseummn.com/tickets">
+                    <span>
+                        <i class="fa fa-ticket"></i>
+                    </span>
+                    Tickets de Suporte
+                    </a>
+                </li>
+                <p class="subtitle">
+                    PARTICIPAÇÕES
+                </p>
+                <li class="start ">
+                    <a href="http://teste.monteseummn.com/cotas">
+                    <span>
+                        <i class="ion ion-merge"></i>
+                    </span>
+                    Minhas participações
+                    </a>
+                </li>
+                <p class="subtitle">
+                    VOIP
+                </p>
+                <li class="start ">
+                    <a href="http://sip.emsegundos.com" target="_blank">
+                    <span>
+                        <i class="ion ion-ios-telephone-outline"></i>
+                    </span>
+                    Acessar SIP
+                    </a>
+                </li>
+                <p style="cursor: pointer;" onclick="document.querySelector('ayn').classList.toggle('active'); $('aside').animate({ scrollTop: $('aside').height() }, 1000);" class="subtitle">
+                    FINANCEIRO
+                    <i class="ion ion-ios-arrow-down" style="float: right;font-size: 18px;"></i>
+                </p>
+                <AYN>
+                <li>
+                            <a href="http://teste.monteseummn.com/faturas">
+                            <span>
+                        <i class="ion ion-log-out"></i>
+                    </span>
+                            Faturas</a>
+                        </li>
+                        <li>
+                            <a href="http://teste.monteseummn.com/extrato">
+                            <span>
+                        <i class="ion ion-ios-paper-outline"></i>
+                    </span>
+                            Extrato</a>
+                        </li>
+
+                                                <li>
+                            <a href="http://teste.monteseummn.com/transferir">
+                            <span>
+                        <i class="fa ion-loop"></i>
+                    </span>
+                            Transferir Saldo</a>
+                        </li>
+                        
+                        <li>
+                            <a href="http://teste.monteseummn.com/pagar/saldo">
+                            <span>
+                        <i class="fa ion-log-out"></i>
+                    </span>
+                            Pagar com Saldo</a>
+                        </li>
+
+                        <li>
+                            <a href="http://teste.monteseummn.com/comprovante">
+                            <span>
+                        <i class="ion ion-ios-barcode-outline"></i>
+                    </span>
+                            Enviar comprovante</a>
+                        </li>
+
+                        <li>
+                            <a href="http://teste.monteseummn.com/saque">
+                            <span>
+                        <i class="ion ion-cash"></i>
+                    </span>
+                            Saques</a>
+                        </li>
+            </AYN>
+
+
+
+                    
+                
+
+            </ul>
+        </div>
+    </aside>
+
+
+
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper" style="width: 99%;">
+        
+        <nav style="width: 100%;background-color: #fff;height:70px;">
+        <div class="pull-left" style="    margin-left: 320px;
+    font-family: Montserrat;
+    line-height: 70px;
+    letter-spacing: 1px;">
+            SISTEMA DE <b>MARKETING MULTINÍVEL</b>
+        </div>
+             <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="top-menu">
+            <ul class="nav hide">
+                <li onclick="$('aside').show()"><i class="ion ion-navicon"></i></li>
+            </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <!-- BEGIN USER LOGIN DROPDOWN -->
+                    <li class="dropdown dropdown-user dropdown-dark">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <span class="username username-hide-mobile">bartolomeu gsus</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-default">
+                            <li>
+                                <a href="http://teste.monteseummn.com/usuario/configuracoes">
+                                <i class="fa fa-key"></i> Minha senha </a>
+                            </li>
+                            <li>
+                                <a href="http://teste.monteseummn.com/usuario/configuracoes">
+                                <i class="fa fa-user"></i> Meus Dados </a>
+                            </li>
+                            <li class="divider">
+                            </li>
+
+                            <li>
+                                <a href="http://teste.monteseummn.com/usuario/logout">
+                                <i class="fa fa-sign-out"></i> Log Out </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END USER LOGIN DROPDOWN -->
+                </ul>
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </nav>
+        <div class="page-content" style="height: 100vh;">
+﻿                <!-- BEGIN PAGE HEADER-->
+                <h3 class="page-title">
+                Backoffice</h3>
+                <div class="page-bar">
+                    <ul class="page-breadcrumb">
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="http://teste.monteseummn.com/conta">Backoffice</a>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END PAGE HEADER-->
+            
+                <!-- BEGIN DASHBOARD STATS -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <a style="animation-delay: 2.2s;" class="dashboard-stat dashboard-stat-v2 blue" href="http://teste.monteseummn.com/extrato">
+                        <div class="visual">
+                            <i class="fa fa-money"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                 R$ 0,00                            </div>
+                            <div class="desc">
+                                 Saldo Disponível
+                            </div>
+                        </div>
+
+                        <div style="display: none;" class="novo_conteudo">
+                            
+                                                    </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <a style="animation-delay: 2.4s;" class="dashboard-stat dashboard-stat-v2 green-soft" href="#">
+                        <div class="visual">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                 Nenhuma                            </div>
+                            <div class="desc">
+                            Qualificação
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <a style="animation-delay: 2.8s;" class="dashboard-stat dashboard-stat-light purple" href="http://teste.monteseummn.com/indicados">
+                        <div class="visual">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                 0                            </div>
+                            <div class="desc">
+                                 Indicados Diretos
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <a style="animation-delay: 3.2s;" class="dashboard-stat dashboard-stat-light green" href="http://teste.monteseummn.com/cotas">
+                        <div class="visual">
+                            <i class="fa fa-magic"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                0                            </div>
+                            <div class="desc">
+                                 Participações Ativas
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                
+
+<style>
+    /*Isso esconde erros erros - tirar*/
+    .details{
+        /*display: none;*/
+    }
+</style>
+        <!-- INDICAÇÃO -->
+        <div class="row">
+            <div class="col-md-6">
+                
+
+
+
+<div class="portlet light ">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class="icon-bar-chart font-dark hide"></i>
+                                        <span class="caption-subject font-dark bold uppercase">Ganhos Diários</span>
+                                        <span class="caption-helper">Últimos 5 dias</span>
+                                    </div>
+                                    <div class="actions">
+                                        <div class="btn-group btn-group-devided" data-toggle="buttons">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portlet-body">
+                                    <div id="site_statistics_loading" style="display: none;">
+                                        <img src="../assets/global/img/loading.gif" alt="loading"> </div>
+                                    <div id="site_statistics_content" class="display-none" style="display: block;">
+                                        <div id="site_statistics" class="chart" style="padding: 0px; position: relative;"> </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+            </div>
+            <div class="col-md-6">
+                <div class=" card indica" role="alert">
+                    <h4 class="head_indica">Link de indicação:</h4>
+                    <div class="sub_indica">Utilize esse link para realizar suas indicações</div>
+                    <div class="link_indica"><span style="opacity: 1;">http://teste.monteseummn.com/patrocinador/bertolucci67</span></div>
+                    <p class="social_indica" style="margin-bottom: 10px!important;">compartilhe nas suas redes sociais</p>
+                    <p class="social_indica">
+                        <img src="http://teste.monteseummn.com/assets/global/img/social_index/tw.png" alt="social link">
+                        <img src="http://teste.monteseummn.com/assets/global/img/social_index/face.png" alt="social link">
+                        <img src="http://teste.monteseummn.com/assets/global/img/social_index/google.png" alt="social link">
+                        <img src="http://teste.monteseummn.com/assets/global/img/social_index/linkedin.png" alt="social link">
+                    </p>
+                </div>
+            </div>
+
+        <!-- INDICAÇÃO -->
+
+                <!-- END DASHBOARD STATS -->
+                <div class="clearfix">
+                </div>
+
+                <div class="portlet " style="padding: 0px 10px;">
+                    <div class="portlet-body">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BEGIN SAMPLE TABLE PORTLET-->
+                        <div class="portlet box green">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="fa fa-cogs"></i>Informações sobre suas Participações
+                                </div>
+                                <div class="tools">
+                                    <a href="javascript:;" class="collapse">
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="portlet-body flip-scroll">
+                                <table class="table table-bordered table-striped table-condensed flip-content">
+                                <thead class="flip-content">
+                                <tr>
+                                    <th width="20%">
+                                         Qtd. Participações
+                                    </th>
+                                    <th>
+                                         Primeiro Recebimento
+                                    </th>
+                                    <th class="numeric">
+                                         Último Recebimento
+                                    </th>
+                                    </th>
+                                    <th class="numeric">
+                                         Status
+                                    </th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- END SAMPLE TABLE PORTLET-->
+
+                                        <div class="anuncios">
+
+                    </div> <!-- .anuncios -->
+                    
+                </div>
+                 <!-- PORTLET LIGHT -->
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <!-- END CONTENT -->
+        <!-- BEGIN QUICK SIDEBAR -->
+        <!--Cooming Soon...-->
+        <!-- END QUICK SIDEBAR -->
+    </div>
+    <!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<!--   <div class="page-footer">
+    <div class="page-footer-inner">
+ &copy;     </div>
+    <div class="scroll-to-top">
+      <i class="icon-arrow-up"></i>
+    </div>
+  </div> -->
+<!-- END FOOTER -->
+</div>
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="http://teste.monteseummn.com/assets/global/plugins/respond.min.js"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/bootstrap-daterangepicker/moment.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript"></script>
+<!-- IMPORTANT! fullcalendar depends on jquery-ui-1.10.3.custom.min.js for drag & drop support -->
+<script src="http://teste.monteseummn.com/assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/plug-ins/1.10.10/sorting/datetime-moment.js"></script>
+
+<script type="text/javascript" src="http://teste.monteseummn.com/assets/global/plugins/select2/select2.min.js"></script>
+<script type="text/javascript" src="http://teste.monteseummn.com/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="http://teste.monteseummn.com/assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+<script type="text/javascript" src="http://teste.monteseummn.com/assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
+<script type="text/javascript" src="http://teste.monteseummn.com/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="http://teste.monteseummn.com/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/layout2/scripts/layout.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/layout2/scripts/demo.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/pages/scripts/index.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/pages/scripts/table-advanced.js"></script>
+
+<script src="http://teste.monteseummn.com/assets/admin/layout2/scripts/sweetalert.min.js" type="text/javascript"></script>
+<script src="http://teste.monteseummn.com/assets/admin/layout2/scripts/jquery.maskedinput.min.js" type="text/javascript"></script>
+<script>
+    jQuery(function ($) {
+        $("#data").mask("99/99/9999");
+        $("#celular").mask("(99) 99999-999?9");
+        $("#cpf").mask("999.999.999-99");
+    });
+
+</script>
+<script src="http://teste.monteseummn.com/assets/admin/layout2/scripts/jquery.maskedinput.min.js" type="text/javascript"></script>
+
+<script>
+    jQuery(function ($) {
+        $("#data").mask("99/99/9999");
+        $("#celular").mask("(99) 99999-999?9");
+        $("#cpf").mask("999.999.999-99");
+        $("#cep").mask("99999-999");
+        $("#uf").val("rs");
+
+
+    });
+    function limpa_formulário_cep() {
+        //Limpa valores do formulário de cep.
+        document.getElementById('endereco').value = ("");
+        document.getElementById('bairro').value = ("");
+        document.getElementById('cidade').value = ("");
+        document.getElementById('uf').value = ("");
+    }
+
+    function buscaCEP(cep) {
+
+        limpa_formulário_cep();
+
+        cep.replace("-", "");
+        url = 'https://api.postmon.com.br/v1/cep/' + cep;
+
+        $.getJSON(url, function (data) {
+            $("#cidade").val(data.cidade);
+            $("#uf").val(data.estado.toLowerCase());
+            $("#bairro").val(data.bairro);
+            $("#endereco").val(data.logradouro);
+        });
+    }
+</script>
+<script>
+    $(document).ready(function () {
+
+        $("a#aba_notificacao").click(function () {
+
+            $.ajax({
+                url: "http://teste.monteseummn.com/conta/atualiza_notificacao",
+                type: 'POST',
+                success: function (callback) {
+
+                    if (callback == 'true' || callback == '1') {
+
+                        $("#icone-notificacao").fadeOut();
+                    }
+                }
+            });
+        })
+    })
+</script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+    jQuery(document).ready(function () {
+        Metronic.init(); // init metronic core componets
+        Layout.init(); // init layout
+        Demo.init(); // init demo features
+        Index.init();
+        Index.initDashboardDaterange();
+        Index.initJQVMAP(); // init index page's custom scripts
+        Index.initCalendar(); // init index page's custom scripts
+        Index.initCharts(); // init index page's custom scripts
+        //Index.initChat();
+        Index.initMiniCharts();
+        Tasks.initDashboardWidget();
+        TableAdvanced.init();
+        Profile.init(); // init page demo
+    });
+</script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-77715326-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics -->
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
